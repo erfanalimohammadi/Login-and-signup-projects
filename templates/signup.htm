@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../css-icons/all.css">
+    <title>Sign Up</title>
+</head>
+<body style="background-image: url(../static/2.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+    <div class="signup-page">
+        <div class="signup-header">
+            <header>Sign Up</header>
+        </div>
+        <form action="http://localhost:5000/signup" method="post" onsubmit="return validateForm()">
+            <div class="signup-input-box">
+                <input type="text" class="input-field" placeholder="First Name" name="First_name" autocomplete="on" required>
+            </div>
+            <div class="signup-input-box">
+                <input type="text" class="input-field" placeholder="Last Name" name="Last_name" autocomplete="on" required>
+            </div>
+            <div class="signup-input-box">
+                <input type="email" class="input-field" placeholder="Email" name="Email" autocomplete="on" required>
+            </div>
+            <div class="signup-input-box">
+                <input type="password" id="password" class="input-field" placeholder="Password" name="Password" autocomplete="off" required>
+            </div>
+            <div class="signup-input-box">
+                <input type="password" id="confirm_password" class="input-field" placeholder="Confirm Password" name="confirm_password" autocomplete="off" required>
+            </div>
+            <div class="signup-input-submit">
+               <button class="submit-btn" id="submit">Sign Up</button>
+            </div>
+            <div class="sign-in-link">
+                <p class="signin-link-p">I have an account! <a href="./login.html">Sign in</a> </p>
+            </div>
+        </form>
+    </div>
+    <script src="../static/app.js"></script>
+</body>
+</html>
