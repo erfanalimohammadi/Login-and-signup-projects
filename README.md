@@ -17,7 +17,7 @@ Directories should be like default directories and files in the correct director
 ## Roadmap
 this was a simple project or better to say a basis for a website's user management section and by adding some features like an admin section and edit Profile ability for users it can be a complete user management project.
 
-## contact information
+## Contact Information
 if you have any comments or ideas, please share them with me:
 erfanalimohammadi@outlook.com
 
